@@ -2,4 +2,5 @@
 
 <ul>
 	<li><a href="/auth">Authentication guard</a></li>
+	<li><a href="/async-state">Managing async loading/error state</a></li>
 </ul>
