@@ -1,0 +1,12 @@
+name = "remotes-functions-demos"
+main = ".svelte-kit/cloudflare/_worker.js"
+assets = { directory = ".svelte-kit/cloudflare", binding = "ASSETS" }
+
+compatibility_flags = [ "nodejs_compat" ]
+compatibility_date = "2025-04-22"
+
+# Workers Logs
+# Docs: https://developers.cloudflare.com/workers/observability/logs/workers-logs/
+# Configuration: https://developers.cloudflare.com/workers/observability/logs/workers-logs/#enable-workers-logs
+[observability]
+enabled = true

@@ -29,5 +29,8 @@
 		"onlyBuiltDependencies": [
 			"esbuild"
 		]
+	},
+	"dependencies": {
+		"@sveltejs/adapter-cloudflare": "^7.2.3"
 	}
 }
