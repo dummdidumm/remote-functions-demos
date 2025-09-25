@@ -2,9 +2,9 @@ name: Deploy Worker
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, feature/setup-cloudflare ]
   pull_request:
-    branches: [ main ]
+    branches: [ main, feature/setup-cloudflare ]
 
 jobs:
   deploy:
